@@ -55,6 +55,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
+  background-color: #f0efef;
 }
 
 /******************************************
@@ -66,10 +67,10 @@ body {
 
 .maincontainer {
   width: 900px;
-  margin: 80px;
+  margin: 30px 100px 60px 80px;
   display: flex;
-  flex-direction: column;
-  align-content: space-around;
+  flex-flow: row nowrap;
+  align-content: space-between;
 }
 h1 {
   font-size: 36px;
@@ -79,9 +80,8 @@ h1 {
 nav {
   background-color: #033048;
   color: #ffffff;
-  padding: 20px;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 120px;
+  padding-left: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -100,7 +100,6 @@ h2 {
   font-weight: 600;
   color: #033048;
   text-align: left;
-  padding: 10px;
 }
 .blogpost {
   width: 800px;
@@ -108,15 +107,17 @@ h2 {
   border-color: #000000;
   border-style: solid;
 }
-img {
-  padding: 10px;
-}
 p {
   font-size: 22px;
   font-weight: 300;
   color: #606161;
   text-align: left;
-  padding: 10px;
+}
+p span {
+  font-size: 70px;
+  font-weight: 600;
+  color: #606161;
+  padding-right: 5px;
 }
 .readmore {
   display: flex;
@@ -131,7 +132,37 @@ article a {
   font-size: 21px;
   font-weight: 600;
   color: #033048;
-  padding: 30px;
+  padding: 10px;
+}
+.sidenav {
+  width: 280px;
+}
+.sidenav p {
+  font-size: 21px;
+  font-weight: 100;
+  color: #033048;
+}
+
+.sidenav img{
+padding-left:40px;}
+
+.sidenav ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 21px;
+  font-weight: 100;
+  color: #033048;
+}
+aside {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #033048;
+  margin: 0;
 }
 .cta2 {
   background-color: #f9e42e;
@@ -149,7 +180,7 @@ article a {
   border-radius: 5px;
   margin: auto;
 }
-ul a {
+.socialmedia ul a {
   color: #ffffff;
 }
 .footerlogo {

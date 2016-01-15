@@ -70,7 +70,7 @@ body {
   margin: 30px 100px 60px 80px;
   display: flex;
   flex-flow: row nowrap;
-  align-content: space-between;
+  align-content: space-around;
 }
 h1 {
   font-size: 36px;
@@ -107,6 +107,7 @@ h2 {
   border-color: #000000;
   border-style: solid;
 }
+
 p {
   font-size: 22px;
   font-weight: 300;
@@ -114,10 +115,13 @@ p {
   text-align: left;
 }
 p span {
-  font-size: 70px;
+  font-size: 90px;
   font-weight: 600;
   color: #606161;
   padding-right: 5px;
+  float:left;
+  margin: 8px;
+  line-height: 70px;
 }
 .readmore {
   display: flex;
@@ -143,9 +147,6 @@ article a {
   color: #033048;
 }
 
-.sidenav img{
-padding-left:40px;}
-
 .sidenav ul {
   display: flex;
   flex-direction: column;
@@ -154,7 +155,7 @@ padding-left:40px;}
   color: #033048;
 }
 aside {
-  padding-left: 20px;
+  padding-left: 80px;
   display: flex;
   flex-direction: column;
 }
@@ -182,21 +183,26 @@ h3 {
 }
 .socialmedia ul a {
   color: #ffffff;
+  margin:10px;
 }
+
 .footerlogo {
   font-size: 40px;
   font-weight: 700;
   color: #f9e42e;
   padding: 30px;
 }
+
 .socialmedia {
   width: 280px;
   display: flex;
   justify-content: space-around;
 }
+
+
 .footertext {
   font-size: 16px;
-  padding: 40px;
+  margin:20px;
 }
 footer {
   background-color: #121212;
@@ -204,6 +210,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+    justify-content: space-around;
 }
 
 /******************************************

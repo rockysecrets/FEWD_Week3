@@ -3,7 +3,10 @@ html, body {
 }
 
 /*Default inline column styles*/
+
+
 /*https://davidwalsh.name/remove-whitespace-inline-block*/
+
 main {
   width: 100%;
   font-size: 0;
@@ -21,30 +24,54 @@ main {
 }
 
 /*Flexbox detection with Modernizr*/
+
 .flexbox.flexwrap main {
   display: flex;
 }
-
 .flexbox.flexwrap .content {
   display: flex;
   flex: 1;
 }
-
 .flexbox.flexwrap .sidebar {
   display: flex;
   flex: 0 200px;
 }
-
-
 .placeholder {
-  background: rgba(100,100,100,.5);
+  background: rgba(100, 100, 100, .5);
+  border: 5px solid white;
+  padding: 20px;
+  min-height: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 20%;
+}
+header {
+  display: flex;
+  flex-flow: row;
+}
+header nav a {
+  background: rgba(100, 100, 100, .5);
+  border: 5px solid white;
+  padding: 20px;
+  min-height: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 10%;
+  margin-left: 20px;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+footer {
+  background: rgba(100, 100, 100, .5);
   border: 5px solid white;
   padding: 20px;
   min-height: 40px;
   box-sizing: border-box;
   overflow: hidden;
 }
-
-.sidebar, .content{
+.sidebar, .content {
   min-height: 240px;
 }

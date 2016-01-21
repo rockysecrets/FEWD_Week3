@@ -57,6 +57,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
+    background-color: #f0efef;
 }
 
 /******************************************
@@ -82,16 +83,6 @@ body {
   padding-top: 60px;
 }
 
-.navlogo{
-  
-}
-.blogcontainer {
-  width: 900px;
-  margin: 30px 100px 60px 80px;
-  display: flex;
-  flex-flow: row nowrap;
-  align-content: space-around;
-}
 h1 {
   font-size: 40px;
   font-weight: 700;
@@ -124,6 +115,11 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
+
+nav ul a:hover{
+  text-decoration: underline;
+}
+
 .cta {
   font-weight: 800;
   font-size: 24px;
@@ -159,14 +155,12 @@ button {
   margin: 20px;
 }
 a {
-  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   text-align: center;
 }
 .benefits {
   width: 100%;
   padding: 60px;
-  background-color: #f0efef;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -215,6 +209,114 @@ blockquote {
   padding: 40px 20px 20px 20px;
   margin: auto;
 }
+
+nav {
+  background-color: #033048;
+  color: #ffffff;
+  padding-right: 120px;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+nav ul a:visited {
+    color: #f9e42e;
+}
+
+.posts{
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px 20px 20px 60px;
+}
+
+.blogpost {
+  width: 800px;
+  border-bottom: 1px;
+  border-color: #000000;
+  border-style: solid;
+  margin: 20px;
+}
+p span {
+  font-size: 90px;
+  font-weight: 600;
+  color: #606161;
+  padding-right: 5px;
+  float:left;
+  margin: 8px;
+  line-height: 70px;
+}
+
+.readmore {
+  display: flex;
+  align-self: flex-end;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+article a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  padding: 10px;
+}
+
+aside {
+  margin: 50px 10px 20px 0px;
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #033048;
+  margin: 20px 0px 20px 0px;
+}
+
+.sidenav p {
+  font-size: 21px;
+  font-weight: 100;
+  color: #033048;
+  margin: 0;
+}
+
+.sidenav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 21px;
+  font-weight: 100;
+  color: #033048;
+  text-align: left;
+}
+
+.sidenav img{
+  margin-top: 40px;
+}
+
+.sidenav p a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #033048;
+  padding: 20 0px 20px 0px;
+  display: inline-block;
+}
+
+
 .cta2 {
   background-color: #f9e42e;
   height: 100px;

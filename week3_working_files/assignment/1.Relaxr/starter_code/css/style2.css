@@ -95,6 +95,11 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
+
+nav ul a:visited {
+    color: #f9e42e;
+}
+
 h2 {
   font-size: 36px;
   font-weight: 600;
